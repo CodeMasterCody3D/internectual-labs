@@ -20,6 +20,13 @@ nav{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);gap:0;pa
 @media(max-width:540px){.research-notes,.project-grid{grid-template-columns:1fr}.lab-section{padding-top:30px}.project-card{min-height:210px;padding:20px}.project-top{margin-bottom:13px}.project-kind,.status{font-size:9px}.research-notes{gap:23px}.research-notes p,.project-card>p,.section-heading>p:last-child{font-size:13px}.project-footnote{font-size:10px}.project-filters button{font-size:11px}.nav-side{gap:9px}nav a,nav button{font-size:8px}}
 @media(max-width:460px){nav a,nav button{font-size:8px}nav{gap:11px}}
 
+
+/* Give the definition and founder quote room to stand out. */
+.philosophy{padding:32px clamp(18px,5vw,48px) 34px}
+.philosophy .definition{max-width:720px;margin:18px auto 0;font-size:clamp(18px,2.1vw,24px);line-height:1.55}
+.philosophy .definition strong{font-weight:600}
+.philosophy blockquote{max-width:680px;margin:22px auto 0;font-size:clamp(16px,1.7vw,20px);line-height:1.7}
+.philosophy blockquote cite{display:block;margin-top:10px;font-size:14px}
 </style>
 </head>
 <body>
