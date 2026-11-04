@@ -1,29 +1,28 @@
 # Internectual Labs design preview
 
-This is a review branch, not a deployment to internectual.com.
+Branch: `preview/threeui-lab-showcase-20261104`. This design is published only to the separate, owner-private review Site. It is not the design served by internectual.com.
 
-- GitHub branch: `preview/threeui-lab-showcase-20261104`
-- Original main commit: `8f9ee09cda4f60284d5813b51441d4aefd5deede`
-- Private preview: https://internectual-design-preview-20261104.cody-dixon-7790.chatgpt.site
-- `original.html` preserves the original page for comparison.
-- The existing domain and default branch must remain unchanged until Cody approves a replacement.
+## Revision 02
 
-## Changes
+The actual Internectual Labs emblem now dominates the hero. Layered artwork adds depth and pointer tilt; custom projected hexagons, cyan signal traces, and constellation motion echo the logo. The animated scene uses Canvas 2D and CSS, with pause/play, reduced-motion support, a capped pixel ratio, and suspension when offscreen or hidden. The original chrome-and-cyan circuit atmosphere is retained.
 
-Add a ThreeUI Liquid Form hero with a static fallback and accessible pause control; move TK Integers into a prominent showcase with an interactive five-trit packing example; add coordinated GRIP and TAARDIS artwork; preserve the experimental project list and payment destinations; clarify the compute sponsorship goal; improve responsive typography and add social metadata.
+The requested tagline is “Efficient Ternary LLMs and Experimental AGI Architectures.” It appears in the hero and metadata. The `original.html` comparison retains the original layout, with the same approved tagline correction as the live site. The old wording embedded in the banner is cropped from the rendered hero, and the new tagline is real HTML text.
 
-The 2.2 bits-per-weight comparison is an exact nominal storage example from `docs/TKINTEGERS_AUTOGRID_PAPER.md` (version 1.1, October 23, 2026), not an inference-speed or quality benchmark. It assumes complete groups of 20 k1 weights and packed 12-bit scales, excluding padding and file metadata.
-
-## Validation
-
-- JavaScript syntax checks passed.
-- Internal anchors, asset paths, unique IDs, and all three exact payment links checked.
-- Desktop, 390px phone, and 768px tablet layouts visually inspected in browser.
-- Packing interaction and expandable storage explanation tested.
-- The QA browser reports WebGL unavailable; its static fallback is verified. The actual Liquid Form animation and physical-device performance still need user/device review.
+TK Integers remains the first featured project with an interactive five-trit example. The storage comparison shows nominal format arithmetic, not measured speed or model quality. GRIP and TAARDIS use their own repository artwork: the GRIP robotic-hand banner and the TAARDIS call-box illustration. GNU-AI-Flow and IQ Wave Models remain marked in progress. Confirmed payment and project destinations are preserved.
 
 ## Attribution
 
-Liquid Form shaders are from Meng To / ThreeUI Community. Original shader blob: `fbd9289b312f37ce13b909b3ff66cb62a44f87be`. MIT license is retained at `assets/THREEUI-LICENSE.txt`. The host was adapted to plain JavaScript, with reduced-motion support, a 30 FPS cap, a lower mobile rendering resolution, offscreen suspension, and tab-visibility resumption. Existing Internectual branding is reused from the original page.
+The constellation node/link approach is adapted from Meng To’s ThreeUI, MIT license, retained in `assets/THREEUI-LICENSE.txt`. The projected geometry and logo presentation are custom. Original logo and background artwork are reused without raster edits.
 
-Before any approved production merge, update the social image origin to the production domain and remove the preview toolbar and noindex metadata. Nothing in this branch automatically deploys or changes domain settings.
+## Validation
+
+JavaScript syntax, local asset paths, anchors, payment destinations, and five-trit arithmetic checked. Desktop, 390-pixel phone, and 768-pixel tablet layouts inspected in a browser. Logo animation and pause/play checked with Canvas 2D available. No dependency on WebGL.
+
+The design remains a review branch. Production has only the separately requested tagline correction; merging the redesign still requires approval. Keep noindex and the preview toolbar until that decision.
+
+## Project artwork sources
+
+- GRIP: https://github.com/CodeMasterCody3D/grip/blob/main/GRIP.png
+- TAARDIS: https://huggingface.co/CodeMasterCody3D/taardis-27b-full-ternary/blob/main/TAARDIS-new.png
+
+Both are converted to WebP for delivery without changing their framing or dimensions.

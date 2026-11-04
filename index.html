@@ -4,22 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <meta name="description" content="Internectual Labs. Independent research in efficient AI, ternary computing, and experimental architectures. Built by Cody Dixon in Alabama.">
+  <meta name="description" content="Internectual Labs. Independent research in efficient ternary LLMs and experimental AGI architectures. Built by Cody Dixon in Alabama.">
   <meta name="theme-color" content="#071116">
-  <meta property="og:title" content="Internectual Labs — Built from curiosity. Tested in practice.">
+  <meta property="og:title" content="Internectual Labs — Efficient Ternary LLMs and Experimental AGI Architectures">
   <meta property="og:description" content="Explore TK Integers, GRIP, TAARDIS, and the next experiments in efficient AI.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://internectual-design-preview-20261104.cody-dixon-7790.chatgpt.site/assets/social-preview.webp">
+  <meta property="og:image" content="https://internectual-design-preview-20261104.cody-dixon-7790.chatgpt.site/assets/emblem.webp">
   <meta name="twitter:card" content="summary_large_image">
   <title>Internectual Labs · Design Preview</title>
   <link rel="icon" type="image/webp" href="assets/emblem.webp">
   <link rel="stylesheet" href="styles.css">
-  <script defer src="assets/liquid-shaders.js"></script>
-  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="experience.css">
+  <script defer src="main.js?v=2"></script>
+  <script defer src="experience.js"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <div class="preview-bar"><span><i aria-hidden="true"></i> Design preview</span><div><a href="original.html">Original design <span aria-hidden="true">↗</span></a><a href="https://internectual.com" target="_blank" rel="noopener noreferrer">Live website <span aria-hidden="true">↗</span></a></div></div>
+  <div class="preview-bar"><span><i aria-hidden="true"></i> Design preview · 02</span><div><a href="original.html">Original design <span aria-hidden="true">↗</span></a><a href="https://internectual.com" target="_blank" rel="noopener noreferrer">Live website <span aria-hidden="true">↗</span></a></div></div>
   <div class="atmosphere" aria-hidden="true"></div>
   <div class="page">
     <header class="site-header">
@@ -30,19 +31,24 @@
       </nav>
     </header>
     <main id="main">
-      <section class="hero" id="home" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Independent research · Alabama</p>
-          <p class="lab-name">INTERNECTUAL LABS</p>
-          <h1 id="hero-title">Built from<br>curiosity.<br><span>Tested in practice.</span></h1>
-          <p class="hero-description">Ternary computing. Efficient AI. Tools that turn ideas into experiments.</p>
-          <div class="hero-actions"><a class="button primary" href="#work">Explore the work <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">Meet the code <span aria-hidden="true">↗</span></a></div>
+      <section class="hero cinematic-hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-stage" id="logo-stage">
+          <div class="stage-atmosphere" aria-hidden="true"></div>
+          <canvas id="research-field" aria-hidden="true"></canvas>
+          <div class="stage-halo" aria-hidden="true"></div>
+          <div class="logo-object" id="logo-object" aria-hidden="true">
+            <div class="logo-float"><img class="logo-layer layer-back" src="assets/emblem.webp" alt="" width="1370" height="1160"><img class="logo-layer layer-mid" src="assets/emblem.webp" alt="" width="1370" height="1160"><img class="logo-layer layer-front" src="assets/emblem.webp" alt="" width="1370" height="1160"></div>
+          </div>
+          <div class="stage-note stage-note-left"><span>01 / TERNARY COMPUTING</span><strong>Less weight.<br>More possibility.</strong><i aria-hidden="true"></i></div>
+          <div class="stage-note stage-note-right"><span>INDEPENDENT RESEARCH</span><strong>Built in Alabama.<br>Shared with the world.</strong><i aria-hidden="true"></i></div>
+          <div class="stage-bottom"><span class="stage-hint">Move your pointer to explore</span><button id="motion-toggle" type="button" aria-pressed="false">Pause motion Ⅱ</button></div>
         </div>
-        <div class="hero-art" id="liquid-host">
-          <div class="orb-fallback" aria-hidden="true"></div>
-          <canvas id="liquid" aria-hidden="true"></canvas>
-          <div class="art-corner top-left" aria-hidden="true"></div><div class="art-corner bottom-right" aria-hidden="true"></div>
-          <div class="art-caption"><span>Curiosity, in motion.</span><button id="motion-toggle" type="button" aria-pressed="false">Pause motion <span aria-hidden="true">Ⅱ</span></button></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Ternary computing · Wave architectures · Efficient AI</p>
+          <h1 id="hero-title">INTERNECTUAL <span>LABS</span></h1>
+          <p class="hero-statement">Efficient Ternary LLMs and Experimental AGI Architectures</p>
+          <p class="hero-description">Big questions. Hands-on experiments.<br>Building what comes next, one idea at a time.</p>
+          <div class="hero-actions"><a class="button primary" href="#work">Enter the lab <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">Explore the source <span aria-hidden="true">↗</span></a></div>
         </div>
       </section>
       <div class="disciplines" aria-label="Research areas"><span><b>01</b> Ternary computing</span><span><b>02</b> Experimental architectures</span><span><b>03</b> Tools for builders</span></div>
@@ -67,20 +73,20 @@
         </div>
 
         <div class="project-pair">
-          <article class="project grip-project"><div class="project-visual grip-visual" aria-hidden="true"><div class="workflow-line"></div><div class="workflow-node">01<span>IDEA</span></div><div class="workflow-node middle">02<span>BUILD</span></div><div class="workflow-node">03<span>PROOF</span></div><div class="resume-tag"><span>↳</span> pick up where you left off</div></div><div class="project-body"><p class="eyebrow">02 / Agent workflow</p><h3>Get a GRIP.</h3><p>Keep an AI-assisted project moving. Save progress, capture what changed and what was tested, then continue when you choose.</p><a class="project-link" href="https://github.com/CodeMasterCody3D/grip" target="_blank" rel="noopener noreferrer">Explore GRIP <span aria-hidden="true">↗</span></a></div></article>
-          <article class="project taardis-project"><div class="project-visual taardis-visual" aria-hidden="true"><svg viewBox="0 0 420 240" role="presentation"><defs><radialGradient id="core"><stop stop-color="#a6e6e5" stop-opacity=".24"/><stop offset="1" stop-color="#a6e6e5" stop-opacity="0"/></radialGradient></defs><circle cx="210" cy="120" r="110" fill="url(#core)"/><g fill="none" stroke="#6e9da9"><path d="M210 25 295 73 295 168 210 215 125 168 125 73Z"/><path d="M210 48 275 84 275 156 210 192 145 156 145 84Z" opacity=".55"/><path d="M210 73 252 96 252 144 210 167 168 144 168 96Z"/><path d="m125 73 170 95m0-95-170 95m85-143v190" opacity=".35"/></g><g fill="#c8ebe9"><circle cx="210" cy="25" r="3"/><circle cx="295" cy="73" r="3"/><circle cx="295" cy="168" r="3"/><circle cx="210" cy="215" r="3"/><circle cx="125" cy="168" r="3"/><circle cx="125" cy="73" r="3"/></g><rect x="174" y="101" width="72" height="38" rx="3" fill="#0a1c25" stroke="#7eb3bf"/><text x="210" y="126" text-anchor="middle" fill="#d5e9eb" font-family="monospace" font-size="18">27B</text></svg></div><div class="project-body"><p class="eyebrow">03 / Full-ternary model</p><h3>TAARDIS-27B.</h3><p>Explore the lab’s full-ternary model project, its published files, and the runtime work behind it. Usage and limitations live in the model card.</p><a class="project-link" href="https://huggingface.co/CodeMasterCody3D/taardis-27b-full-ternary" target="_blank" rel="noopener noreferrer">Explore the model <span aria-hidden="true">↗</span></a></div></article>
+          <article class="project grip-project" id="grip"><div class="project-visual project-artwork grip-artwork"><img src="assets/grip-project.webp" alt="GRIP robotic hand holding a green illuminated core, with the slogan Tell your AI to get a GRIP." width="1983" height="793" loading="lazy" decoding="async"></div><div class="project-body"><p class="eyebrow">02 / Agent workflow</p><h3>Get a GRIP.</h3><p>Keep an AI-assisted project moving. Save progress, capture what changed and what was tested, then continue when you choose.</p><a class="project-link" href="https://github.com/CodeMasterCody3D/grip" target="_blank" rel="noopener noreferrer">Explore GRIP <span aria-hidden="true">↗</span></a></div></article>
+          <article class="project taardis-project" id="taardis"><div class="project-visual project-artwork taardis-artwork"><img src="assets/taardis-project.webp" alt="TAARDIS metallic call box with blue and gold circuits and the words Small on the outside, big on the inside." width="1122" height="1138" loading="lazy" decoding="async"></div><div class="project-body"><p class="eyebrow">03 / Full-ternary model</p><h3>TAARDIS-27B.</h3><p>Explore the lab’s full-ternary model project, its published files, and the runtime work behind it. Usage and limitations live in the model card.</p><a class="project-link" href="https://huggingface.co/CodeMasterCody3D/taardis-27b-full-ternary" target="_blank" rel="noopener noreferrer">Explore the model <span aria-hidden="true">↗</span></a></div></article>
         </div>
       </section>
 
       <section class="research section" id="research" aria-labelledby="research-title"><div class="section-heading"><div><p class="eyebrow">On the workbench</p><h2 id="research-title">The next questions.</h2></div><p>Research in progress.<br>Room to experiment.</p></div><div class="research-row"><span class="research-number">04</span><div><h3>GNU-AI-Flow</h3><p>A visual workspace for AI components, model flows, and training pipelines, built around the GNU Radio Companion interface.</p></div><span class="status">In development</span></div><div class="research-row"><span class="research-number">05</span><div><h3>IQ Wave Models</h3><p>Exploring in-phase and quadrature signals as a different way to represent information, learning, and reasoning.</p></div><span class="status">Experimental</span></div><p class="research-footnote">These projects are not released yet. Follow the lab for public updates.</p></section>
 
-      <section class="about section" id="about" aria-labelledby="about-title"><div class="about-mark"><img src="assets/emblem.webp" alt="Internectual Labs emblem" width="180" height="180"><span>HUEYTOWN, ALABAMA</span></div><div class="about-copy"><p class="eyebrow">The person behind the experiments</p><h2 id="about-title">A lab built<br> on curiosity.</h2><p>I’m Cody Dixon, a hands-on researcher and builder in Alabama. I connect ideas with published research and use AI to help turn those ideas into working tools.</p><blockquote>“Today’s minds are always on the internet, but it’s what you do with it that sets you apart.”<cite>— Cody Dixon</cite></blockquote><a class="text-link" href="https://github.com/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">More about my work ↗</a></div></section>
+      <section class="about section" id="about" aria-labelledby="about-title"><div class="about-mark"><img src="assets/emblem.webp" alt="Internectual Labs emblem" width="180" height="180"><span>HUEYTOWN, ALABAMA</span></div><div class="about-copy"><p class="eyebrow">The person behind the experiments</p><h2 id="about-title">A lab built<br> on curiosity.</h2><p class="internectual-definition"><strong>INTERNECTUAL</strong> <span>(adj.)</span><br>Someone who has cultivated a substantial body of knowledge via the web.</p><p>I’m Cody Dixon, a hands-on researcher and builder in Alabama. I connect ideas with published research and use AI to help turn those ideas into working tools.</p><blockquote>“Today’s minds are always on the internet, but it’s what you do with it that sets you apart.”<cite>— Cody Dixon</cite></blockquote><a class="text-link" href="https://github.com/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">More about my work ↗</a></div></section>
 
       <section class="support section" id="support" aria-labelledby="support-title"><div class="support-top"><div><p class="eyebrow">Support independent research</p><h2 id="support-title">Help the next<br>experiment happen.</h2><p>More GPU time means more room to evaluate models, reproduce results, and keep practical tools moving forward.</p></div><div class="next-experiment"><p class="eyebrow">The next goal</p><h3>Broader model evaluation.</h3><p>Support testing that puts reasoning quality, memory use, and speed side by side—with the setup and results documented.</p><span class="goal-label">Compute + reproducible experiments</span></div></div><div class="support-bottom"><a class="button sponsor-button" href="https://github.com/sponsors/CodeMasterCody3D" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">♡</span> Sponsor on GitHub <span aria-hidden="true">↗</span></a><div class="payment-links"><span>Or support directly</span><a href="https://cash.app/$codyddixon" target="_blank" rel="noopener noreferrer">Cash App ↗</a><a href="https://www.paypal.com/donate/?business=E37Z2QEXT7AQW" target="_blank" rel="noopener noreferrer">PayPal ↗</a><a href="https://venmo.com/code?user_id=3551400504067417250&amp;created=1788477131" target="_blank" rel="noopener noreferrer">Venmo ↗</a></div></div></section>
 
       <section class="collaborate section" aria-labelledby="collaborate-title"><div><p class="eyebrow">Build with me</p><h2 id="collaborate-title">Have an idea worth testing?</h2><p>Reproduce a result, report a bug, improve a tool, or bring a different perspective.</p></div><a class="button outline" href="https://discord.gg/BTU7WuXyf" target="_blank" rel="noopener noreferrer">Join the community ↗</a></section>
     </main>
-    <footer><div><strong>INTERNECTUAL LABS</strong><span>Independent research. Public experiments.</span></div><div><a href="https://github.com/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://huggingface.co/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">Hugging Face</a><a href="mailto:codydillondixon@internectual.net">Contact</a></div><p>Liquid Form by <a href="https://github.com/MengTo/threeui" target="_blank" rel="noopener noreferrer">Meng To / ThreeUI</a> · <a href="assets/THREEUI-LICENSE.txt">MIT license</a></p></footer>
+    <footer><div><strong>INTERNECTUAL LABS</strong><span>Independent research. Public experiments.</span></div><div><a href="https://github.com/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://huggingface.co/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">Hugging Face</a><a href="mailto:codydillondixon@internectual.net">Contact</a></div><p>Constellation motion adapted from <a href="https://github.com/MengTo/threeui" target="_blank" rel="noopener noreferrer">Meng To / ThreeUI</a> · <a href="assets/THREEUI-LICENSE.txt">MIT license</a></p></footer>
   </div>
 </body>
 </html>
