@@ -31,6 +31,11 @@ nav{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);gap:0;pa
 .philosophy .definition strong{font-weight:600}
 .philosophy blockquote{max-width:680px;margin:22px auto 0;font-size:clamp(16px,1.7vw,20px);line-height:1.7}
 .philosophy blockquote cite{display:block;margin-top:10px;font-size:14px}
+
+/* Sponsorship uses GitHub's official embed with an always-available direct link. */
+nav .nav-sponsor{color:#efbbd6}.support-section{padding:28px 8%;border-top:1px solid #314651;border-bottom:1px solid #314651;background:radial-gradient(ellipse at top right,#684c682e,transparent 65%),linear-gradient(120deg,#12232c,#0b151d)}.support-layout{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:26px;align-items:center}.support-section h2{font-size:23px;line-height:1.25;text-transform:none;color:#e4edf1;margin:8px 0 12px}.support-section p{font-size:13px;line-height:1.75;color:#aebfc8}.support-section .eyebrow{color:#edb6d4!important}.support-actions{display:flex;flex-direction:column;align-items:center;gap:12px}.sponsor-embed{display:block;border:0;border-radius:6px;width:114px;height:32px;color-scheme:light}.sponsor-direct{font-size:11px;line-height:1.5;text-align:center;color:#edb6d4;text-underline-offset:4px}.sponsor-direct:hover{color:#ffe0f1}.support-note{font-size:11px!important;color:#89a0ad!important;margin-top:10px}.nav-left{gap:16px}
+@media(max-width:760px){.nav-left{gap:10px}.support-section{padding:26px 6%}}
+@media(max-width:540px){.support-layout{grid-template-columns:1fr;gap:18px}.support-actions{align-items:flex-start}.sponsor-direct{text-align:left}.support-section h2{font-size:22px}.support-section{padding:26px 9%}}
 </style>
 </head>
 <body>
@@ -42,6 +47,7 @@ nav{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);gap:0;pa
       <nav aria-label="Main navigation">
         <div class="nav-side nav-left">
         <a class="active" href="#home">Home</a>
+        <a class="nav-sponsor" href="#support">Sponsor</a>
         <a href="#research">Research</a>
         <a href="https://huggingface.co/CodeMasterCody3D/taardis-27b-full-ternary" target="_blank" rel="noopener noreferrer">TAARDIS Model</a>
         </div>
@@ -63,6 +69,20 @@ nav{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);gap:0;pa
         <h2 id="philosophy-title">The Internectual Philosophy</h2>
         <p class="definition"><strong>“INTERNECTUAL</strong> (adj): Someone who has cultivated a substantial body of knowledge via the web.”</p>
         <blockquote>Today's minds are always on the internet, but it's what you do with it that sets you apart. <cite>— Cody Dixon.</cite></blockquote>
+      </section>
+      <section class="support-section" id="support" aria-labelledby="support-title">
+        <div class="support-layout">
+          <div>
+            <p class="eyebrow">Support independent research</p>
+            <h2 id="support-title">Help the next experiment happen.</h2>
+            <p>Support Cody Dixon's work at Internectual Labs: efficient AI, ternary computing, and public tools built through hands-on experimentation.</p>
+            <p class="support-note">Sponsorship helps support GPU time, broader model evaluation, and continued development.</p>
+          </div>
+          <div class="support-actions">
+            <iframe class="sponsor-embed" src="https://github.com/sponsors/CodeMasterCody3D/button" title="Sponsor Cody Dixon on GitHub" height="32" width="114" loading="lazy"></iframe>
+            <a class="sponsor-direct" href="https://github.com/sponsors/CodeMasterCody3D" target="_blank" rel="noopener noreferrer">Visit GitHub Sponsors <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
       </section>
       <section class="pillars" id="research" aria-labelledby="pillars-title">
         <h2 id="pillars-title">Engineering Pillars</h2>
