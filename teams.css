@@ -94,3 +94,9 @@
 @media(max-width:1000px){.repo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.member-portfolio{margin-top:28px;padding-top:24px}.portfolio-heading{flex-wrap:wrap;gap:16px}.portfolio-heading h3{font-size:24px}.member-card .portfolio-heading .member-github{font-size:12px}.repo-card{padding:17px}.repo-description{font-size:13px}.repo-category{font-size:9px}.repo-credit{font-size:11px}}
 @media(max-width:560px){.repo-grid,#mohammed-work .repo-grid{grid-template-columns:1fr}.portfolio-heading{align-items:flex-start;flex-direction:column}.repo-card h4{font-size:17px}.repo-card h4 a{min-height:40px;display:inline-flex;align-items:center;gap:6px}.repo-card{padding:18px}.member-card .portfolio-heading .member-github{width:100%;justify-content:flex-start;white-space:normal}.member-github>span:last-of-type{margin-left:auto}.repo-detail{min-height:44px}}
+
+/* Matching profile sections keep each member’s story easy to scan. */
+.member-details{font:10px/1.8 var(--mono);color:#a5c7d5;margin-top:12px;overflow-wrap:anywhere}
+.member-bio section+section{margin-top:22px}
+.member-bio h3{font-size:13px;line-height:1.5;font-weight:500;color:#d6eaf1;letter-spacing:.01em;margin:0 0 9px}
+.member-bio section p:last-child{margin-bottom:0}

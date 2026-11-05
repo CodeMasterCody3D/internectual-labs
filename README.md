@@ -25,7 +25,8 @@ and search-engine exclusion metadata are removed from these production copies.
 The `internectual-labs-ai` source repository remains private; its Pages website
 is public. No DNS-provider changes or repository visibility changes are required.
 
-The team page preserves Cody’s exact supplied biography. Mohammed is marked as a
-new team member with no lab contributions yet; personal work is shown separately.
+The team page organizes both supplied biographies into matching sections. Cody
+remains first as Owner & Founder. Mohammed is marked as a new team member with
+planned lab work distinguished from completed contributions; personal work is shown separately.
 Forks and open-source contributions retain project attribution. Asset license
 notices are preserved in `assets/`.
